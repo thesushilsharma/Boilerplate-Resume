@@ -12,4 +12,4 @@ Create resume sites quickly, robustly, and adaptably by using boilerplate. Start
 
 Want to contribute? Great!
 
->Fork it
+> **_Fork it:_** I do appreciate individuals trying to make some things prettier or introducing additional functionality.
