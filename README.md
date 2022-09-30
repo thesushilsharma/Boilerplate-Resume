@@ -5,7 +5,7 @@ Create resume sites quickly, robustly, and adaptably by using boilerplate. Start
 [Tailblocks — Ready-to-use Tailwind CSS blocks](https://tailblocks.cc/)
 
 
-### instructions
+### Instructions
 [IN 5 MINUTES, HOW TO MAKE A WEBSITE](https://thesushilsharma.blogspot.com/2021/01/tailwindcss.html)
 
 ## Development
