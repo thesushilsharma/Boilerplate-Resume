@@ -11,10 +11,41 @@
     <meta name="author" content="Sushil Sharma">
     <meta name="keywords"
         content="HTML, CSS, Portfolio, Github, Github pages, Website Developement, Tailwind CSS, VSCode">
-        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+    <header class="sticky top-0 z-50 text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
+                    width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275"></path>
+                    <path d="M11.683 12.317l5.759 -5.759"></path>
+                    <circle cx="5.5" cy="5.5" r="1.5"></circle>
+                    <circle cx="18.5" cy="5.5" r="1.5"></circle>
+                    <circle cx="18.5" cy="18.5" r="1.5"></circle>
+                    <circle cx="8.5" cy="15.5" r="4.5"></circle>
+                </svg>
+                <span class="ml-3 text-xl">The Sushil Sharma</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white" active" href="#home">Home</a>
+                <a class="mr-5 hover:text-white" href="#about">About</a>
+                <a class="mr-5 hover:text-white" href="#skills">Skills</a>
+                <a class="mr-5 hover:text-white" href="#contact">Contact</a>
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Email
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
 
     <script src="assets/main.js"></script>
 </body>
