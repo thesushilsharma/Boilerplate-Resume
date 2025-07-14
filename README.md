@@ -1,31 +1,57 @@
-# Boilerplate-Resume
+# Sushil Sharma's Personal Site
 
-Create resume sites quickly, robustly, and adaptably by using boilerplate. Start off your resume with the knowledge and work of many hours, all in one small bundle.
+## Vuejs & TailwindCSS Portfolio - With default light/dark mode [System Dectection]
 
-## Dependencies
+I have developed a portfolio website utilizing the latest version 3 of Vue.js and Tailwind CSS, with Vite serving as the development tool.  The use of Vue.js and Tailwind CSS ensures that the website is highly responsive and user-friendly, while Vite provides a fast and efficient development experience.
 
-[Get started with Tailwind CSS](https://tailwindcss.com/docs/installation)
-[Tailblocks — Ready-to-use Tailwind CSS blocks](https://tailblocks.cc/)
+## Tech Stacks 🛠
 
-## Installation
+- Simple and responsive design
+- [Vue.js v3](https://vuejs.org) with [Vue Router](https://router.vuejs.org)
+- [Tailwind CSS v3](https://tailwindcss.com)
+- [Vite](https://vitejs.dev/)
+- Composition API
+- [Iconify](https://icon-sets.iconify.design/material-symbols/), [Simple Icons](https://simpleicons.org/), [Flag CDN](https://flagpedia.net/download/api) for svg, icons and flag.
 
-To install this project, clone the repository to your local machine and open the index.html file in your web browser or Launch a local development server (Live Server - VS Code Extension).
+## Setup
 
-### Instructions
+1. Prerequisites:
 
-[IN 5 MINUTES, HOW TO MAKE A WEBSITE](https://thesushilsharma.blogspot.com/2021/01/tailwindcss.html)
+    - [Download it from nodejs.org](https://nodejs.org)
+    - [VS Code](https://code.visualstudio.com/)
 
-## Known Issues
+1. Clone the repo:
 
-- None
+    ```bash
+    git clone https://github.com/thesushilsharma/thesushilsharma.github.io.git
+    ```
 
-## Contributing
+1. Open the project folder:
 
-Want to contribute? Great!
+    ```bash
+    cd thesushilsharma.github.io
+    ```
 
-> **_Fork it:_** I do appreciate individuals trying to make some things prettier or introducing additional functionality.
-To contribute to this project, please submit any issues or pull requests on the GitHub repository.
+1. Install packages and dependencies:
 
-## License
+    ```bash
+    npm i
+    ```
+
+1. Start a local dev server at `http://localhost:5173`:
+
+    ```bash
+    npm run dev
+    ```
+
+## GitHub Actions
+
+[Deploy Vite app on Github pages using Github Actions](https://vitejs.dev/guide/static-deploy.html)
+
+## Find this repository 🧡?
+
+Like the website or got inspired by it? Please support it by joining [stargazers ⭐](https://github.com/thesushilsharma/thesushilsharma.github.io/stargazers) for this repository.
+
+### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
