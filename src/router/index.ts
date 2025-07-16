@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 
 import DefaultLayout from "../components/DefaultLayout.vue";
 import Home from "@/views/HomeView.vue";
@@ -7,7 +7,7 @@ import Contact from "@/views/ContactView.vue";
 import Journal from "@/views/JournalView.vue";
 import TechStack from "@/views/TechstackView.vue";
 import Projects from "@/views/ProjectsView.vue";
-import NotFoundPage from "@/views/NotFoundPage.vue";
+import NotFoundComponent from "@/views/NotFoundPage.vue";
 
 const routes = [
   {
@@ -64,15 +64,11 @@ const routes = [
       },
     ],
   },
-  {
-    path: '/:pathMatch(.*)*',
-    name: 'NotFoundPage',
-    component: NotFoundPage,
-  },
+  {path: '/:pathMatch(.*)', component: NotFoundComponent },
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/Boilerplate-Resume/'), // Add your base path here
   routes,
 });
 
@@ -85,6 +81,5 @@ router.beforeEach((to, from, next) => {
 
   next();
 });
-
 
 export default router;
